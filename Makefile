@@ -1,5 +1,5 @@
-all: src/main.c
-        gcc src/main.c -o src/hola
+.PHONY: all
 
-test:
-        src/hola
+all: 
+	gcc src/main.c -o src/hola
+
